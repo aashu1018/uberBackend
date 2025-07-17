@@ -77,11 +77,10 @@ This project follows a monolithic architecture with clean separations between se
 
 | Role   | Endpoints                                                   |
 |--------|-------------------------------------------------------------|
-| **User**   | `/signup`, `/login`, `/logout`                             |
+| **User**   | `/signup`, `/login`                            |
 | **Admin**  | `/onboardDriver`, `/getAllRides`                           |
-| **Rider**  | `/requestRide`, `/cancelRide`, `/rateDriver`, `/addFunds` |
-| **Driver** | `/acceptRide`, `/startRide`, `/endRide`, `/rateRider`, `/debitFunds` |
-| **System** | `/updateLocation`, Email notification on ride request     |
+| **Rider**  | `/requestRide`, `/cancelRide`, `/rateDriver` |
+| **Driver** | `/acceptRide`, `/startRide`, `/endRide`, `/rateRider` |
 
 ---
 
