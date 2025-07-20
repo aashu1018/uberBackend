@@ -86,5 +86,5 @@ This project follows a monolithic architecture with clean separations between se
 
 # Swagger UI
 
-Run the app and hit the below endpoint - 
+Run the app and hit the endpoint - 
 http://localhost:8080/swagger-ui/
